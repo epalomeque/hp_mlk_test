@@ -48,10 +48,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 # Preguntas
 
 ¿Qué es lo que más te gustó de tu desarrollo?
+  
   La creación de estilos
 
 Si hubieras tenido más tiempo ¿qué hubieras mejorado o qué más hubieras hecho?
+
   Implementar un servicio para agregar las imagenes con un servidor API
 
 Descríbenos un pain point o bug con el que te hayas encontrado y como lo solucionaste
+
   El tiempo para la realización del proyecto era corto para haber iniciado desde cero
