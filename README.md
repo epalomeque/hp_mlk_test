@@ -23,7 +23,7 @@ Install json-server as global package
 
 In linux you can start the full project (json-server and react app) with this command
 
-### `json-server --watch src/assets/data.json --routes src/assets/routes.json --port 3004 &`
+### `json-server --watch src/assets/hp-characters.json --routes src/assets/routes.json --port 3004 &`
 
 Start json-server faker API
 
@@ -34,11 +34,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -53,10 +48,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 # Preguntas
 
 ¿Qué es lo que más te gustó de tu desarrollo?
-La creación de estilos
+  La creación de estilos
 
 Si hubieras tenido más tiempo ¿qué hubieras mejorado o qué más hubieras hecho?
-Implementar un servicio para agregar las imagenes con un servidor API
+  Implementar un servicio para agregar las imagenes con un servidor API
 
 Descríbenos un pain point o bug con el que te hayas encontrado y como lo solucionaste
-El tiempo para la realización del proyecto era corto para haber iniciado desde cero
+  El tiempo para la realización del proyecto era corto para haber iniciado desde cero
