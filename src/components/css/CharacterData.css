@@ -1,0 +1,18 @@
+.character_data {
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .character_data {
+        text-align: center;
+    }
+}
+
+.card_data_top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center
+}

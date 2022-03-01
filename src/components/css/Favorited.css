@@ -1,0 +1,25 @@
+.favorited {
+    width: 30%;
+}
+
+@media screen and (max-width: 767px) { 
+    .clearButton > svg{
+        width: 100% !important;
+    }
+}
+
+.clearButton {
+    margin: 0px;
+    padding: 5px;
+    background-color: transparent;
+    border: 0px;
+    color: #545454;
+}
+
+.clearButton:hover {
+    color: #545454;
+}
+
+.clearButton:active {
+    color: aliceblue;
+}

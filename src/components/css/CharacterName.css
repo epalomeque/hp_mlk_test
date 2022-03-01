@@ -1,0 +1,11 @@
+.character_name {
+    font-size:larger;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 767px) {
+    .character_name {
+        width: 100%;
+        text-align: center;
+    }
+}

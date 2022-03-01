@@ -1,0 +1,17 @@
+.card_picture {
+    /* width: 70%; */
+    height:6em;
+    width: 6em;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: left top;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .card_picture {
+        height: 5em;
+        width: 5em;
+    }
+  }
+
