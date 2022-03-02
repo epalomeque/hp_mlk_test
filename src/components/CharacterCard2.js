@@ -131,9 +131,9 @@ class CharacterCard2 extends React.Component {
 
 
     }
-  }
-  
-  export default CharacterCard2;
+}
+
+export default CharacterCard2;
 
 
 

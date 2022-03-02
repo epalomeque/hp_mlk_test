@@ -1,13 +1,13 @@
 import React, { //useState, 
     useEffect } from "react";
 import { useSelector, useDispatch } from 'react-redux';
-import CharacterCard from './CharacterCard'
+// import CharacterCard from './CharacterCard'
+import CharacterCard2 from './CharacterCard2'
 import { canBePrinted } from "./Functions";
 import { retrieveCharacters } from '../redux/Actions';
 
 const selectToggleStudents = state => state.hp_reducer.toggleStudents;
 const selectToggleStaff = state => state.hp_reducer.toggleStaff;
-// const selectFavorites = state => state.hp_reducer.favorites;
 
 
 export const Characters = () => {
@@ -25,15 +25,14 @@ export const Characters = () => {
         Chars &&
         Chars.map(
             (character) => {
-                // const print = canBePrinted(character.class_type, toggleStaff, toggleStudents)
                 const print = canBePrinted(character.hogwartsStudent, character.hogwartsStaff, toggleStaff, toggleStudents)
                 return( 
                     (print) && (
-                    <CharacterCard 
+                    <CharacterCard2
                             character={character} 
                             key={`char_card_${character.id}`} 
                         >
-                    </CharacterCard>
+                    </CharacterCard2>
                     )
                 )
             }
